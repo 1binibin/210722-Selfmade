@@ -1,0 +1,37 @@
+/*************  common  *********************** */
+html, body {height: 5000px;}
+
+/**************** header-wrapper ******************  */
+.header-wrapper {width:100%; position: fixed;  z-index: 9999; background-color: white; box-shadow: 0 2px 5px 0 rgba(2, 0, 0, 16%);}
+.header-wrapper .navi-wrap {  width:100%; padding: 8px 16px;}
+.header-wrapper .navi-wrap .logo {float: left; padding:8px 16px; letter-spacing: 4px; font-size: 15px;}
+.header-wrapper .navi-wrap .logo span {font-weight: bold;}
+.header-wrapper .navi-wrap .logo:hover {background-color: darkgray;}
+.header-wrapper .navi-wrap .navi-wp {float: right; }
+.header-wrapper .navi-wrap .navi-wp .navi {float:left; letter-spacing: 4px; font-size: 15px; display: block; padding: 8px 16px;}
+.header-wrapper .navi-wrap .navi-wp .navi:hover {background-color: darkgray;}
+
+
+/********************.main-wrapper. **********************/
+
+.main-wrapper .main {width: 100%;  text-align: center; margin: auto; position: relative; }
+.main-wrapper .main .arch-wrap {z-index:999; position: absolute; left: 0; top: 50%; width: 100%;}
+.main-wrapper .arch .br {background-color: black; color: white; font-size: 36px; padding: 8px 16px; opacity: .7;letter-spacing: 4px; font-weight: bold;}
+.main-wrapper .arch .ar {font-size: 36px; letter-spacing: 4px; color: white;}
+
+
+/***************.project-wrapper.******************/
+.project-wrapper {width:100%; padding: 8px 16px;}
+.project-wrapper .project-wrap {padding: 32px 16px;}
+.project-wrapper .project-wrap .project h1{font-size: 24px;}
+.project-wrapper .img-wrapper {width: 100%;}
+.project-wrapper .img-wrapper .table-wrap {padding: 8px 16px; }
+.project-wrapper .img-wrapper .table-wp {position: relative;margin: auto; }
+.project-wrapper .img-wrapper .table-wp .table1 {padding: 10px;}
+.project-wrapper .img-wrapper .table-wp .table2 {padding: 10px;}
+.project-wrapper .img-wrapper .table-wp .table3 {padding: 10px;}
+.project-wrapper .img-wrapper .table-wp .table4 {padding: 10px;}
+.project-wrapper .img-wrapper .table-wp .table1 .summer{position: absolute;left: 10; top: 10;z-index: 9; background-color: black; color: white; padding: 8px;}
+.project-wrapper .img-wrapper .table-wp .table2 .brick{position: absolute;left: 10; top: 10;z-index: 9; background-color: black; color: white; padding: 8px;}
+.project-wrapper .img-wrapper .table-wp .table3 .reno{position: absolute;left: 10; top: 10;z-index: 9; background-color: black; color: white; padding: 8px;}
+.project-wrapper .img-wrapper .table-wp .table4 .barn{position: absolute;left: 10; top: 10;z-index: 9; background-color: black; color: white; padding: 8px;}
