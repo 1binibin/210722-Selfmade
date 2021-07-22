@@ -1,6 +1,6 @@
 /*************  common  *********************** */
 html, body {height: 5000px;}
-
+.wrapper {max-width: 1600px; margin: auto;}
 /**************** header-wrapper ******************  */
 .header-wrapper {width:100%; position: fixed;  z-index: 9999; background-color: white; box-shadow: 0 2px 5px 0 rgba(2, 0, 0, 16%);}
 .header-wrapper .navi-wrap {  width:100%; padding: 8px 16px;}
@@ -24,7 +24,7 @@ html, body {height: 5000px;}
 .project-wrapper {width:100%; padding: 8px 16px;}
 .project-wrapper .project-wrap {padding: 32px 16px;}
 .project-wrapper .project-wrap .project h1{font-size: 24px;}
-.project-wrapper .img-wrapper {width: 100%;}
+.project-wrapper .img-wrapper {;}
 .project-wrapper .img-wrapper .table-wrap {padding: 8px 16px; }
 .project-wrapper .img-wrapper .table-wp {position: relative;margin: auto; }
 .project-wrapper .img-wrapper .table-wp .table1 {padding: 10px;}
