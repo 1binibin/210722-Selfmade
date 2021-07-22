@@ -14,19 +14,19 @@ html, body {height: 5000px;}
 
 /********************.main-wrapper. **********************/
 
-.main-wrapper .main {width: 100%;  text-align: center; margin: auto; position: relative; }
+.main-wrapper .main {max-width: 100%; text-align: center; position: relative;} 
 .main-wrapper .main .arch-wrap {z-index:999; position: absolute; left: 0; top: 50%; width: 100%;}
 .main-wrapper .arch .br {background-color: black; color: white; font-size: 36px; padding: 8px 16px; opacity: .7;letter-spacing: 4px; font-weight: bold;}
 .main-wrapper .arch .ar {font-size: 36px; letter-spacing: 4px; color: white;}
 
 
 /***************.project-wrapper.******************/
-.project-wrapper {width:100%; padding: 8px 16px;}
+.project-wrapper { padding: 16px 8px;  max-width: 1564px; margin: 0 auto;}
 .project-wrapper .project-wrap {padding: 32px 16px;}
 .project-wrapper .project-wrap .project h1{font-size: 24px;}
-.project-wrapper .img-wrapper {;}
+.project-wrapper .img-wrapper {}
 .project-wrapper .img-wrapper .table-wrap {padding: 8px 16px; }
-.project-wrapper .img-wrapper .table-wp {position: relative;margin: auto; }
+.project-wrapper .img-wrapper .table-wp {position: relative; margin: auto; }
 .project-wrapper .img-wrapper .table-wp .table1 {padding: 10px;}
 .project-wrapper .img-wrapper .table-wp .table2 {padding: 10px;}
 .project-wrapper .img-wrapper .table-wp .table3 {padding: 10px;}
@@ -35,3 +35,6 @@ html, body {height: 5000px;}
 .project-wrapper .img-wrapper .table-wp .table2 .brick{position: absolute;left: 10; top: 10;z-index: 9; background-color: black; color: white; padding: 8px;}
 .project-wrapper .img-wrapper .table-wp .table3 .reno{position: absolute;left: 10; top: 10;z-index: 9; background-color: black; color: white; padding: 8px;}
 .project-wrapper .img-wrapper .table-wp .table4 .barn{position: absolute;left: 10; top: 10;z-index: 9; background-color: black; color: white; padding: 8px;}
+/***********.about-wrapper.***************/
+.about-wrapper {width: 100%; margin: 0 auto;}
+.about-wrapper .content .title {}
