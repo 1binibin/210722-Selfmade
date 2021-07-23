@@ -37,4 +37,5 @@ html, body {height: 5000px;}
 .project-wrapper .img-wrapper .table-wp .table4 .barn{position: absolute;left: 10; top: 10;z-index: 9; background-color: black; color: white; padding: 8px;}
 /***********.about-wrapper.***************/
 .about-wrapper {width: 100%; margin: 0 auto;}
-.about-wrapper .content .title {}
+.about-wrapper .img-wrapper .content h3.title {padding: 16px 0;} 
+.about-wrapper .content-wrap h3.title {margin-bottom: 24px;}
