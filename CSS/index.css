@@ -1,10 +1,12 @@
 /*************  common  *********************** */
-html, body {height: 5000px;}
+html, body {;}
 .wrapper {max-width: 1600px; margin:auto; }
 .bt-gray {text-align: center; background-color: #f1f1f1; border:none; width: 100%; font-size: 16px; padding: 8px 0;}
 .bt-gray:hover {background-color: #bbb; cursor: pointer;}
+.bt-black {text-align: center; background-color: #000; color: #fff; border: none;  font-size: 16px; padding: 14px 16px; margin: 18px 0; cursor: pointer;}
+.bt-black:hover {background-color: #bbb; border:none; color: #000; font-size: 16px; padding: 14px 16px;}
 h2.title {margin-bottom: 16px; padding: 8px 0; border-bottom: 1px solid #bbb;}
-li {}
+li {list-style: none; ;}
 /**************** header-wrapper ******************  */
 .header-wrapper {width:100%; position: fixed;  z-index: 9999; background-color: white; box-shadow: 0 2px 5px 0 rgba(2, 0, 0, 16%);}
 .header-wrapper .navi-wrap {  width:100%; padding: 8px 16px;}
@@ -49,3 +51,17 @@ li {}
 .about-wrapper .member-wrapper .member-wrap h2.title {margin-bottom: 16px; padding: 8px 0;}
 .about-wrapper .member-wrapper .member-wrap h4 {margin-bottom: 16px; font-size: 16px; color: #bbb;}
 .about-wrapper .member-wrapper .member-wrap p {font-size: 18px; text-align: left; margin: 15px auto;}
+/***************.contact-wrapper********************/
+.contact-wrapper {padding: 16px 0 ;}
+.contact-wrapper .contact-wrap .input-wp .ul {width: 100%; margin: auto;}
+.contact-wrapper .contact-wrap .input-wp .input {width: 100%; font-size: 18px; padding: 4px 10px; margin: 16px 0; border: 1px solid #bbb; }
+.contact-wrapper .contact-wrap .input-wp .input:hover {border-radius: 2px;}
+
+/**********************.img-wrapper.***************/
+.img-wrapper { padding: 0.5%;}
+
+/****************.footer.***************/
+.footer {background-color: #000; text-align: center; color: white; font-size: 18px; padding: 24px 0; margin: ;}
+/* .footer p {margin: 16px auto;} */
+.footer a {text-decoration: underline;}
+.footer a:hover {color: green;}
