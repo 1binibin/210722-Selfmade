@@ -1,6 +1,7 @@
 /*************  common  *********************** */
 html, body {height: 5000px;}
-.wrapper {max-width: 1600px; margin: auto;}
+.wrapper {max-width: 1600px; margin:auto; }
+.bt-gray {text-align: center; background-color: #bbb; border:none; width: 100%; font-size: 16px; padding: 8px 0;}
 /**************** header-wrapper ******************  */
 .header-wrapper {width:100%; position: fixed;  z-index: 9999; background-color: white; box-shadow: 0 2px 5px 0 rgba(2, 0, 0, 16%);}
 .header-wrapper .navi-wrap {  width:100%; padding: 8px 16px;}
@@ -10,6 +11,7 @@ html, body {height: 5000px;}
 .header-wrapper .navi-wrap .navi-wp {float: right; }
 .header-wrapper .navi-wrap .navi-wp .navi {float:left; letter-spacing: 4px; font-size: 15px; display: block; padding: 8px 16px;}
 .header-wrapper .navi-wrap .navi-wp .navi:hover {background-color: darkgray;}
+
 
 
 /********************.main-wrapper. **********************/
@@ -37,5 +39,10 @@ html, body {height: 5000px;}
 .project-wrapper .img-wrapper .table-wp .table4 .barn{position: absolute;left: 10; top: 10;z-index: 9; background-color: black; color: white; padding: 8px;}
 /***********.about-wrapper.***************/
 .about-wrapper {width: 100%; margin: 0 auto;}
-.about-wrapper .img-wrapper .content h3.title {padding: 16px 0;} 
-.about-wrapper .content-wrap h3.title {margin-bottom: 24px;}
+.about-wrapper .content-wrap h3.title {padding: 16px 0;} 
+.about-wrapper .content-wrap h3.title {margin-bottom: 24px; border-bottom: 1px solid #bbb; font-size: 24px;}
+.about-wrapper .content-wrap h4 {margin-bottom: 36px;}
+.about-wrapper .member-wrapper .member-wrap {float: left; width: 25%; padding: 0 10px; opacity: .9; vertical-align: middle;}
+.about-wrapper .member-wrapper .member-wrap h2.title {margin-bottom: 16px; padding: 8px 0;}
+.about-wrapper .member-wrapper .member-wrap h4 {margin-bottom: 16px; font-size: 16px; color: #bbb;}
+.about-wrapper .member-wrapper .member-wrap p {font-size: 16px;}
