@@ -1,7 +1,8 @@
 /*************  common  *********************** */
 html, body {height: 5000px;}
 .wrapper {max-width: 1600px; margin:auto; }
-.bt-gray {text-align: center; background-color: #bbb; border:none; width: 100%; font-size: 16px; padding: 8px 0;}
+.bt-gray {text-align: center; background-color: #f1f1f1; border:none; width: 100%; font-size: 16px; padding: 8px 0;}
+.bt-gray:hover {background-color: #bbb; cursor: pointer;}
 /**************** header-wrapper ******************  */
 .header-wrapper {width:100%; position: fixed;  z-index: 9999; background-color: white; box-shadow: 0 2px 5px 0 rgba(2, 0, 0, 16%);}
 .header-wrapper .navi-wrap {  width:100%; padding: 8px 16px;}
@@ -16,14 +17,14 @@ html, body {height: 5000px;}
 
 /********************.main-wrapper. **********************/
 
-.main-wrapper .main {max-width: 100%; text-align: center; position: relative;} 
+.main-wrapper .main {width: 100%; text-align: center; position: relative;} 
 .main-wrapper .main .arch-wrap {z-index:999; position: absolute; left: 0; top: 50%; width: 100%;}
 .main-wrapper .arch .br {background-color: black; color: white; font-size: 36px; padding: 8px 16px; opacity: .7;letter-spacing: 4px; font-weight: bold;}
 .main-wrapper .arch .ar {font-size: 36px; letter-spacing: 4px; color: white;}
 
 
 /***************.project-wrapper.******************/
-.project-wrapper { padding: 16px 8px;  max-width: 1564px; margin: 0 auto;}
+.project-wrapper { padding: 16px 8px; width: 100%; margin: 0 auto;}
 .project-wrapper .project-wrap {padding: 32px 16px;}
 .project-wrapper .project-wrap .project h1{font-size: 24px;}
 .project-wrapper .img-wrapper {}
@@ -45,4 +46,4 @@ html, body {height: 5000px;}
 .about-wrapper .member-wrapper .member-wrap {float: left; width: 25%; padding: 0 10px; opacity: .9; vertical-align: middle;}
 .about-wrapper .member-wrapper .member-wrap h2.title {margin-bottom: 16px; padding: 8px 0;}
 .about-wrapper .member-wrapper .member-wrap h4 {margin-bottom: 16px; font-size: 16px; color: #bbb;}
-.about-wrapper .member-wrapper .member-wrap p {font-size: 16px;}
+.about-wrapper .member-wrapper .member-wrap p {font-size: 18px; text-align: left; margin: 15px auto;}
