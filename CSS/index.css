@@ -3,6 +3,8 @@ html, body {height: 5000px;}
 .wrapper {max-width: 1600px; margin:auto; }
 .bt-gray {text-align: center; background-color: #f1f1f1; border:none; width: 100%; font-size: 16px; padding: 8px 0;}
 .bt-gray:hover {background-color: #bbb; cursor: pointer;}
+h2.title {margin-bottom: 16px; padding: 8px 0; border-bottom: 1px solid #bbb;}
+li {}
 /**************** header-wrapper ******************  */
 .header-wrapper {width:100%; position: fixed;  z-index: 9999; background-color: white; box-shadow: 0 2px 5px 0 rgba(2, 0, 0, 16%);}
 .header-wrapper .navi-wrap {  width:100%; padding: 8px 16px;}
@@ -16,7 +18,7 @@ html, body {height: 5000px;}
 
 
 /********************.main-wrapper. **********************/
-
+.member-wrapper { margin-bottom: 36px;}
 .main-wrapper .main {width: 100%; text-align: center; position: relative;} 
 .main-wrapper .main .arch-wrap {z-index:999; position: absolute; left: 0; top: 50%; width: 100%;}
 .main-wrapper .arch .br {background-color: black; color: white; font-size: 36px; padding: 8px 16px; opacity: .7;letter-spacing: 4px; font-weight: bold;}
