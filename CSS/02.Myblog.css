@@ -1,0 +1,27 @@
+/* common */
+html, body {height: 5000px; background-color: #f1f1f1}
+.wrapper {margin: auto; ; width: 1200px;}
+.wrapper .header {text-align: center; padding: 30px; width: 100%;}
+.wrapper .header h1.head {  font-size: 40px; font-weight: bold; margin: 18px auto;}
+.wrapper .header p {font-size: 16px; margin: 18px 0;}
+.wrapper .header .un {background-color: #000; color: #fff; padding: 0 8px; }
+
+
+
+/* left-wraper */
+.left-wrapper {width: 68%; float: left; margin: 1%;}
+.left-wrapper .title-wrap { background-color: #fff;}
+.left-wrapper .blog-wrap { background-color: #fff;}
+.left-wrapper h2.title { padding:  8px;}
+.left-wrapper h4.title2 {margin-bottom: 6px; padding: 8px;}
+.left-wrapper span.date {color: #bbb;}
+.left-wrapper p {padding: 8px; font-size: 15px;}
+
+
+
+
+
+
+/* right-wrper */
+.right-wrapper {width: 28%; float: left;  margin: 1%;;}
+.right-wrapper 
