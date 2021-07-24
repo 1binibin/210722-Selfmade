@@ -8,7 +8,7 @@ html, body {;}
 h2.title {margin-bottom: 16px; padding: 8px 0; border-bottom: 1px solid #bbb;}
 li {list-style: none; ;}
 /**************** header-wrapper ******************  */
-.header-wrapper {width:100%; position: fixed;  z-index: 9999; background-color: white; box-shadow: 0 2px 5px 0 rgba(2, 0, 0, 16%);}
+.header-wrapper {width:100%; position: fixed;  z-index: 9999; background-color: white; box-shadow: 0 0 0 2px rgba(0, 0, 0, .2);}
 .header-wrapper .navi-wrap {  width:100%; padding: 8px 16px;}
 .header-wrapper .navi-wrap .logo {float: left; padding:8px 16px; letter-spacing: 4px; font-size: 15px;}
 .header-wrapper .navi-wrap .logo span {font-weight: bold;}
