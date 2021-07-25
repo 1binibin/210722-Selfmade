@@ -9,9 +9,9 @@ html, body {height: 5000px; background-color: #f1f1f1}
 
 
 /* left-wraper */
-.left-wrapper {width: 68%; float: left; margin: 1%;}
-.left-wrapper .title-wrap { background-color: #fff;}
-.left-wrapper .blog-wrap { background-color: #fff;}
+.left-wrapper {width: 70%; float: left; ;}
+.left-wrapper .title-wrap { background-color: #fff; margin: 16px; box-shadow: 0 6px 6px 0 rgba(0, 0, 0, .3);}
+.left-wrapper .blog-wrap { background-color: #fff; box-shadow: 0 6px 6px 0 rgba(0, 0, 0, .3); margin: 16px;}
 .left-wrapper h2.title { padding:  8px;}
 .left-wrapper h4.title2 {margin-bottom: 6px; padding: 8px;}
 .left-wrapper span.date {color: #bbb;}
@@ -22,6 +22,29 @@ html, body {height: 5000px; background-color: #f1f1f1}
 
 
 
-/* right-wrper */
-.right-wrapper {width: 28%; float: left;  margin: 1%;;}
-.right-wrapper 
+/* right-wrap */
+.right-wrapper {width: 30%; float: left; margin:  ;}
+.right-wrapper .name-wrap {margin: 16px; background-color: #fff; box-shadow: 0 6px 6px 0 rgba(0, 0, 0, .3);}
+.right-wrapper .name-wrap h3 {padding: 8px;}
+.right-wrapper .name-wrap p {padding: 8px; font-size: 12px;}
+
+/* pop-wrap */
+.pop-wrap {box-shadow: 0 6px 6px 0 rgba(0, 0, 0, .3); margin: 16px;}
+/* .pop-wrap li {width: 20%; text-align: center;} */
+/* .pop-wrap img {float: left; width: 50px;} */
+/* .pop-wrap .content-wrap img {width: 60px; float: left;}
+.pop-wrap .content-wrap li {width: 20%; vertical-align: middle;} */
+.pop-wrap .content-wrap {}
+.pop-wrap .content-wrap img {float: left; width: 50px; margin-right: 16px;}
+.pop-wrap .content-wrap li {padding: 16px; border-bottom: 1px solid #bbb; background-color: #fff;}
+.pop-wrap .content-wrap li:hover {background-color: #f1f1f1;}
+.pop-wrap .title-wrap  {padding: 8px 16px; }
+.pop-wrap .title-wrap h4.title {font-size: 18px; padding: 0 8px;}
+
+/* tag-wrap */
+.tag-wrap {background-color: #fff; box-shadow: 0 6px 6px 0 rgba(0, 0, 0, .3); margin: 16px;}
+.tag-wrap .title-wp {background-color: #f1f1f1; padding: 8px 16px;}
+.tag-wrap .title-wp h3.title {margin: 10px 0; font-size: 18px;}
+.tag-wrap .tags {padding: 8px 16px;}
+.tag-wrap .tags .tag {display: inline-block; background-color: #f1f1f1; font-size: 12px; padding: 4px; margin-bottom: 16px;}
+.tag-wrap .tags .travel { background-color: #000; color:#fff; padding: 0 6px;}
